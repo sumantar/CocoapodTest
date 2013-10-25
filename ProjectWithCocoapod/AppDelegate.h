@@ -1,13 +1,12 @@
 //
 //  AppDelegate.h
-//  CocoaPodTest
+//  ProjectWithCocoapod
 //
-//  Created by sumantar on 24/10/13.
+//  Created by sumantar on 25/10/13.
 //  Copyright (c) 2013 sumantar. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
-#import "AFNetworking.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

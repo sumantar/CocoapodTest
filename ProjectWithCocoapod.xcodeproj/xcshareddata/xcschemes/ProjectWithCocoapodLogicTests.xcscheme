@@ -16,10 +16,10 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DE0933181818FE3000CF20E9"
-               BuildableName = "CocoaPodTestLogicTests.octest"
-               BlueprintName = "CocoaPodTestLogicTests"
-               ReferencedContainer = "container:CocoaPodTest.xcodeproj">
+               BlueprintIdentifier = "DE5D6C8B181A83FA00BA08BC"
+               BuildableName = "ProjectWithCocoapodLogicTests.octest"
+               BlueprintName = "ProjectWithCocoapodLogicTests"
+               ReferencedContainer = "container:ProjectWithCocoapod.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>

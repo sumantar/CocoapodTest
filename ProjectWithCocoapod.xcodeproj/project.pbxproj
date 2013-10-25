@@ -10,50 +10,7 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>1B4B524C99244670803B02FC</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>555E2C7FA5A04A879E44F8BF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Pods.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>61C1FC4F74FE49889B5258DF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-CocoaPodTestLogicTests.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Pods-CocoaPodTestLogicTests.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6C5CCC27966D4721AE793526</key>
+		<key>09800D19AB0B42B9B085C882</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
@@ -77,81 +34,7 @@
 			<key>showEnvVarsInLog</key>
 			<string>0</string>
 		</dict>
-		<key>9A7C760FF9064A3BBCD455B7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1B4B524C99244670803B02FC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A3A2F71E75BF4690AA3D4D9E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>CD305DCEE6A2479FA5537FAA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F7FAFEA21B3241CAA53942DE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DB988AE6A4A44B008F66B224</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>DBD82647241D4FAE8B682200</key>
+		<key>0B134C2F8D2B46D7A52F17BA</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
@@ -170,29 +53,92 @@ fi
 			<key>shellPath</key>
 			<string>/bin/sh</string>
 			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Pods-CocoaPodTestLogicTests-resources.sh"
+			<string>"${SRCROOT}/Pods/Pods-ProjectWithCocoapodLogicTests-resources.sh"
 </string>
 			<key>showEnvVarsInLog</key>
 			<string>0</string>
 		</dict>
-		<key>DE0932D41818F98C00CF20E9</key>
+		<key>2CA73B8C7C4F4E3288A9AB56</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>34C396EE7DD34D2AA12578EF</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-ProjectWithCocoapodLogicTests.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>486C75E5840F40EC94279727</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Pods.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>66F3C416C27B45C6AFE58E01</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-ProjectWithCocoapodLogicTests.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Pods-ProjectWithCocoapodLogicTests.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9D1A5110D1D94F7991AD8BB9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2CA73B8C7C4F4E3288A9AB56</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>DE5D6C47181A839F00BA08BC</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>DE0932E61818F98C00CF20E9</string>
-				<string>DE0933051818F98D00CF20E9</string>
-				<string>DE09331C1818FE3000CF20E9</string>
-				<string>DE0932DF1818F98C00CF20E9</string>
-				<string>DE0932DE1818F98C00CF20E9</string>
-				<string>555E2C7FA5A04A879E44F8BF</string>
-				<string>61C1FC4F74FE49889B5258DF</string>
+				<string>DE5D6C59181A839F00BA08BC</string>
+				<string>DE5D6C78181A83A000BA08BC</string>
+				<string>DE5D6C91181A83FA00BA08BC</string>
+				<string>DE5D6C52181A839F00BA08BC</string>
+				<string>DE5D6C51181A839F00BA08BC</string>
+				<string>486C75E5840F40EC94279727</string>
+				<string>66F3C416C27B45C6AFE58E01</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DE0932D51818F98C00CF20E9</key>
+		<key>DE5D6C48181A839F00BA08BC</key>
 		<dict>
 			<key>attributes</key>
 			<dict>
@@ -202,20 +148,20 @@ fi
 				<string>sumantar</string>
 				<key>TargetAttributes</key>
 				<dict>
-					<key>DE0932FD1818F98C00CF20E9</key>
+					<key>DE5D6C70181A83A000BA08BC</key>
 					<dict>
 						<key>TestTargetID</key>
-						<string>DE0932DC1818F98C00CF20E9</string>
+						<string>DE5D6C4F181A839F00BA08BC</string>
 					</dict>
-					<key>DE0933181818FE3000CF20E9</key>
+					<key>DE5D6C8B181A83FA00BA08BC</key>
 					<dict>
 						<key>TestTargetID</key>
-						<string>DE0932DC1818F98C00CF20E9</string>
+						<string>DE5D6C4F181A839F00BA08BC</string>
 					</dict>
 				</dict>
 			</dict>
 			<key>buildConfigurationList</key>
-			<string>DE0932D81818F98C00CF20E9</string>
+			<string>DE5D6C4B181A839F00BA08BC</string>
 			<key>compatibilityVersion</key>
 			<string>Xcode 3.2</string>
 			<key>developmentRegion</key>
@@ -230,9 +176,9 @@ fi
 				<string>Base</string>
 			</array>
 			<key>mainGroup</key>
-			<string>DE0932D41818F98C00CF20E9</string>
+			<string>DE5D6C47181A839F00BA08BC</string>
 			<key>productRefGroup</key>
-			<string>DE0932DE1818F98C00CF20E9</string>
+			<string>DE5D6C51181A839F00BA08BC</string>
 			<key>projectDirPath</key>
 			<string></string>
 			<key>projectReferences</key>
@@ -241,17 +187,17 @@ fi
 			<string></string>
 			<key>targets</key>
 			<array>
-				<string>DE0932DC1818F98C00CF20E9</string>
-				<string>DE0932FD1818F98C00CF20E9</string>
-				<string>DE0933181818FE3000CF20E9</string>
+				<string>DE5D6C4F181A839F00BA08BC</string>
+				<string>DE5D6C70181A83A000BA08BC</string>
+				<string>DE5D6C8B181A83FA00BA08BC</string>
 			</array>
 		</dict>
-		<key>DE0932D81818F98C00CF20E9</key>
+		<key>DE5D6C4B181A839F00BA08BC</key>
 		<dict>
 			<key>buildConfigurations</key>
 			<array>
-				<string>DE09330D1818F98D00CF20E9</string>
-				<string>DE09330E1818F98D00CF20E9</string>
+				<string>DE5D6C80181A83A000BA08BC</string>
+				<string>DE5D6C81181A83A000BA08BC</string>
 			</array>
 			<key>defaultConfigurationIsVisible</key>
 			<string>0</string>
@@ -260,63 +206,63 @@ fi
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>DE0932D91818F98C00CF20E9</key>
+		<key>DE5D6C4C181A839F00BA08BC</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>DE0932F71818F98C00CF20E9</string>
-				<string>DE0932F11818F98C00CF20E9</string>
-				<string>DE0932ED1818F98C00CF20E9</string>
+				<string>DE5D6C6A181A83A000BA08BC</string>
+				<string>DE5D6C64181A83A000BA08BC</string>
+				<string>DE5D6C60181A83A000BA08BC</string>
 			</array>
 			<key>isa</key>
 			<string>PBXSourcesBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>DE0932DA1818F98C00CF20E9</key>
+		<key>DE5D6C4D181A839F00BA08BC</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>DE0932E31818F98C00CF20E9</string>
-				<string>DE0932E51818F98C00CF20E9</string>
-				<string>DE0932E11818F98C00CF20E9</string>
-				<string>9A7C760FF9064A3BBCD455B7</string>
+				<string>DE5D6C56181A839F00BA08BC</string>
+				<string>DE5D6C58181A839F00BA08BC</string>
+				<string>DE5D6C54181A839F00BA08BC</string>
+				<string>9D1A5110D1D94F7991AD8BB9</string>
 			</array>
 			<key>isa</key>
 			<string>PBXFrameworksBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>DE0932DB1818F98C00CF20E9</key>
+		<key>DE5D6C4E181A839F00BA08BC</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>DE0932F91818F98C00CF20E9</string>
-				<string>DE0932EB1818F98C00CF20E9</string>
-				<string>DE0932F41818F98C00CF20E9</string>
+				<string>DE5D6C6C181A83A000BA08BC</string>
+				<string>DE5D6C5E181A83A000BA08BC</string>
+				<string>DE5D6C67181A83A000BA08BC</string>
 			</array>
 			<key>isa</key>
 			<string>PBXResourcesBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>DE0932DC1818F98C00CF20E9</key>
+		<key>DE5D6C4F181A839F00BA08BC</key>
 		<dict>
 			<key>buildConfigurationList</key>
-			<string>DE09330F1818F98D00CF20E9</string>
+			<string>DE5D6C82181A83A000BA08BC</string>
 			<key>buildPhases</key>
 			<array>
-				<string>DB988AE6A4A44B008F66B224</string>
-				<string>DE0932D91818F98C00CF20E9</string>
-				<string>DE0932DA1818F98C00CF20E9</string>
-				<string>DE0932DB1818F98C00CF20E9</string>
-				<string>6C5CCC27966D4721AE793526</string>
+				<string>E73252CE63E7403CAB374761</string>
+				<string>DE5D6C4C181A839F00BA08BC</string>
+				<string>DE5D6C4D181A839F00BA08BC</string>
+				<string>DE5D6C4E181A839F00BA08BC</string>
+				<string>09800D19AB0B42B9B085C882</string>
 			</array>
 			<key>buildRules</key>
 			<array/>
@@ -325,15 +271,15 @@ fi
 			<key>isa</key>
 			<string>PBXNativeTarget</string>
 			<key>name</key>
-			<string>CocoaPodTest</string>
+			<string>ProjectWithCocoapod</string>
 			<key>productName</key>
-			<string>CocoaPodTest</string>
+			<string>ProjectWithCocoapod</string>
 			<key>productReference</key>
-			<string>DE0932DD1818F98C00CF20E9</string>
+			<string>DE5D6C50181A839F00BA08BC</string>
 			<key>productType</key>
 			<string>com.apple.product-type.application</string>
 		</dict>
-		<key>DE0932DD1818F98C00CF20E9</key>
+		<key>DE5D6C50181A839F00BA08BC</key>
 		<dict>
 			<key>explicitFileType</key>
 			<string>wrapper.application</string>
@@ -342,17 +288,17 @@ fi
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>path</key>
-			<string>CocoaPodTest.app</string>
+			<string>ProjectWithCocoapod.app</string>
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>DE0932DE1818F98C00CF20E9</key>
+		<key>DE5D6C51181A839F00BA08BC</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>DE0932DD1818F98C00CF20E9</string>
-				<string>DE0932FE1818F98D00CF20E9</string>
-				<string>DE0933191818FE3000CF20E9</string>
+				<string>DE5D6C50181A839F00BA08BC</string>
+				<string>DE5D6C71181A83A000BA08BC</string>
+				<string>DE5D6C8C181A83FA00BA08BC</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -361,17 +307,17 @@ fi
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DE0932DF1818F98C00CF20E9</key>
+		<key>DE5D6C52181A839F00BA08BC</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>DE0932E01818F98C00CF20E9</string>
-				<string>DE0932E21818F98C00CF20E9</string>
-				<string>DE0932E41818F98C00CF20E9</string>
-				<string>DE0932FF1818F98D00CF20E9</string>
-				<string>1B4B524C99244670803B02FC</string>
-				<string>DE09331A1818FE3000CF20E9</string>
-				<string>F7FAFEA21B3241CAA53942DE</string>
+				<string>DE5D6C53181A839F00BA08BC</string>
+				<string>DE5D6C55181A839F00BA08BC</string>
+				<string>DE5D6C57181A839F00BA08BC</string>
+				<string>DE5D6C72181A83A000BA08BC</string>
+				<string>DE5D6C8D181A83FA00BA08BC</string>
+				<string>2CA73B8C7C4F4E3288A9AB56</string>
+				<string>34C396EE7DD34D2AA12578EF</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -380,7 +326,7 @@ fi
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DE0932E01818F98C00CF20E9</key>
+		<key>DE5D6C53181A839F00BA08BC</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
@@ -393,14 +339,14 @@ fi
 			<key>sourceTree</key>
 			<string>SDKROOT</string>
 		</dict>
-		<key>DE0932E11818F98C00CF20E9</key>
+		<key>DE5D6C54181A839F00BA08BC</key>
 		<dict>
 			<key>fileRef</key>
-			<string>DE0932E01818F98C00CF20E9</string>
+			<string>DE5D6C53181A839F00BA08BC</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>DE0932E21818F98C00CF20E9</key>
+		<key>DE5D6C55181A839F00BA08BC</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
@@ -413,14 +359,14 @@ fi
 			<key>sourceTree</key>
 			<string>SDKROOT</string>
 		</dict>
-		<key>DE0932E31818F98C00CF20E9</key>
+		<key>DE5D6C56181A839F00BA08BC</key>
 		<dict>
 			<key>fileRef</key>
-			<string>DE0932E21818F98C00CF20E9</string>
+			<string>DE5D6C55181A839F00BA08BC</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>DE0932E41818F98C00CF20E9</key>
+		<key>DE5D6C57181A839F00BA08BC</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
@@ -433,40 +379,40 @@ fi
 			<key>sourceTree</key>
 			<string>SDKROOT</string>
 		</dict>
-		<key>DE0932E51818F98C00CF20E9</key>
+		<key>DE5D6C58181A839F00BA08BC</key>
 		<dict>
 			<key>fileRef</key>
-			<string>DE0932E41818F98C00CF20E9</string>
+			<string>DE5D6C57181A839F00BA08BC</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>DE0932E61818F98C00CF20E9</key>
+		<key>DE5D6C59181A839F00BA08BC</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>DE0932EF1818F98C00CF20E9</string>
-				<string>DE0932F01818F98C00CF20E9</string>
-				<string>DE0932F21818F98C00CF20E9</string>
-				<string>DE0932F51818F98C00CF20E9</string>
-				<string>DE0932F61818F98C00CF20E9</string>
-				<string>DE0932F81818F98C00CF20E9</string>
-				<string>DE0932E71818F98C00CF20E9</string>
+				<string>DE5D6C62181A83A000BA08BC</string>
+				<string>DE5D6C63181A83A000BA08BC</string>
+				<string>DE5D6C65181A83A000BA08BC</string>
+				<string>DE5D6C68181A83A000BA08BC</string>
+				<string>DE5D6C69181A83A000BA08BC</string>
+				<string>DE5D6C6B181A83A000BA08BC</string>
+				<string>DE5D6C5A181A839F00BA08BC</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>path</key>
-			<string>CocoaPodTest</string>
+			<string>ProjectWithCocoapod</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DE0932E71818F98C00CF20E9</key>
+		<key>DE5D6C5A181A839F00BA08BC</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>DE0932E81818F98C00CF20E9</string>
-				<string>DE0932E91818F98C00CF20E9</string>
-				<string>DE0932EC1818F98C00CF20E9</string>
-				<string>DE0932EE1818F98C00CF20E9</string>
+				<string>DE5D6C5B181A839F00BA08BC</string>
+				<string>DE5D6C5C181A83A000BA08BC</string>
+				<string>DE5D6C5F181A83A000BA08BC</string>
+				<string>DE5D6C61181A83A000BA08BC</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -475,22 +421,22 @@ fi
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DE0932E81818F98C00CF20E9</key>
+		<key>DE5D6C5B181A839F00BA08BC</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>text.plist.xml</string>
 			<key>path</key>
-			<string>CocoaPodTest-Info.plist</string>
+			<string>ProjectWithCocoapod-Info.plist</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DE0932E91818F98C00CF20E9</key>
+		<key>DE5D6C5C181A83A000BA08BC</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>DE0932EA1818F98C00CF20E9</string>
+				<string>DE5D6C5D181A83A000BA08BC</string>
 			</array>
 			<key>isa</key>
 			<string>PBXVariantGroup</string>
@@ -499,7 +445,7 @@ fi
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DE0932EA1818F98C00CF20E9</key>
+		<key>DE5D6C5D181A83A000BA08BC</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
@@ -512,14 +458,14 @@ fi
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DE0932EB1818F98C00CF20E9</key>
+		<key>DE5D6C5E181A83A000BA08BC</key>
 		<dict>
 			<key>fileRef</key>
-			<string>DE0932E91818F98C00CF20E9</string>
+			<string>DE5D6C5C181A83A000BA08BC</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>DE0932EC1818F98C00CF20E9</key>
+		<key>DE5D6C5F181A83A000BA08BC</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
@@ -530,25 +476,25 @@ fi
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DE0932ED1818F98C00CF20E9</key>
+		<key>DE5D6C60181A83A000BA08BC</key>
 		<dict>
 			<key>fileRef</key>
-			<string>DE0932EC1818F98C00CF20E9</string>
+			<string>DE5D6C5F181A83A000BA08BC</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>DE0932EE1818F98C00CF20E9</key>
+		<key>DE5D6C61181A83A000BA08BC</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>CocoaPodTest-Prefix.pch</string>
+			<string>ProjectWithCocoapod-Prefix.pch</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DE0932EF1818F98C00CF20E9</key>
+		<key>DE5D6C62181A83A000BA08BC</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
@@ -559,7 +505,7 @@ fi
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DE0932F01818F98C00CF20E9</key>
+		<key>DE5D6C63181A83A000BA08BC</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
@@ -570,18 +516,18 @@ fi
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DE0932F11818F98C00CF20E9</key>
+		<key>DE5D6C64181A83A000BA08BC</key>
 		<dict>
 			<key>fileRef</key>
-			<string>DE0932F01818F98C00CF20E9</string>
+			<string>DE5D6C63181A83A000BA08BC</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>DE0932F21818F98C00CF20E9</key>
+		<key>DE5D6C65181A83A000BA08BC</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>DE0932F31818F98C00CF20E9</string>
+				<string>DE5D6C66181A83A000BA08BC</string>
 			</array>
 			<key>isa</key>
 			<string>PBXVariantGroup</string>
@@ -590,7 +536,7 @@ fi
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DE0932F31818F98C00CF20E9</key>
+		<key>DE5D6C66181A83A000BA08BC</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
@@ -603,14 +549,14 @@ fi
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DE0932F41818F98C00CF20E9</key>
+		<key>DE5D6C67181A83A000BA08BC</key>
 		<dict>
 			<key>fileRef</key>
-			<string>DE0932F21818F98C00CF20E9</string>
+			<string>DE5D6C65181A83A000BA08BC</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>DE0932F51818F98C00CF20E9</key>
+		<key>DE5D6C68181A83A000BA08BC</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
@@ -621,7 +567,7 @@ fi
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DE0932F61818F98C00CF20E9</key>
+		<key>DE5D6C69181A83A000BA08BC</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
@@ -632,14 +578,14 @@ fi
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DE0932F71818F98C00CF20E9</key>
+		<key>DE5D6C6A181A83A000BA08BC</key>
 		<dict>
 			<key>fileRef</key>
-			<string>DE0932F61818F98C00CF20E9</string>
+			<string>DE5D6C69181A83A000BA08BC</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>DE0932F81818F98C00CF20E9</key>
+		<key>DE5D6C6B181A83A000BA08BC</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
@@ -650,82 +596,82 @@ fi
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DE0932F91818F98C00CF20E9</key>
+		<key>DE5D6C6C181A83A000BA08BC</key>
 		<dict>
 			<key>fileRef</key>
-			<string>DE0932F81818F98C00CF20E9</string>
+			<string>DE5D6C6B181A83A000BA08BC</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>DE0932FA1818F98C00CF20E9</key>
+		<key>DE5D6C6D181A83A000BA08BC</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>DE09330C1818F98D00CF20E9</string>
+				<string>DE5D6C7F181A83A000BA08BC</string>
 			</array>
 			<key>isa</key>
 			<string>PBXSourcesBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>DE0932FB1818F98C00CF20E9</key>
+		<key>DE5D6C6E181A83A000BA08BC</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>DE0933001818F98D00CF20E9</string>
-				<string>DE0933021818F98D00CF20E9</string>
-				<string>DE0933011818F98D00CF20E9</string>
+				<string>DE5D6C73181A83A000BA08BC</string>
+				<string>DE5D6C75181A83A000BA08BC</string>
+				<string>DE5D6C74181A83A000BA08BC</string>
 			</array>
 			<key>isa</key>
 			<string>PBXFrameworksBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>DE0932FC1818F98C00CF20E9</key>
+		<key>DE5D6C6F181A83A000BA08BC</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>DE09330A1818F98D00CF20E9</string>
+				<string>DE5D6C7D181A83A000BA08BC</string>
 			</array>
 			<key>isa</key>
 			<string>PBXResourcesBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>DE0932FD1818F98C00CF20E9</key>
+		<key>DE5D6C70181A83A000BA08BC</key>
 		<dict>
 			<key>buildConfigurationList</key>
-			<string>DE0933121818F98D00CF20E9</string>
+			<string>DE5D6C85181A83A000BA08BC</string>
 			<key>buildPhases</key>
 			<array>
-				<string>DE0932FA1818F98C00CF20E9</string>
-				<string>DE0932FB1818F98C00CF20E9</string>
-				<string>DE0932FC1818F98C00CF20E9</string>
+				<string>DE5D6C6D181A83A000BA08BC</string>
+				<string>DE5D6C6E181A83A000BA08BC</string>
+				<string>DE5D6C6F181A83A000BA08BC</string>
 			</array>
 			<key>buildRules</key>
 			<array/>
 			<key>dependencies</key>
 			<array>
-				<string>DE0933041818F98D00CF20E9</string>
+				<string>DE5D6C77181A83A000BA08BC</string>
 			</array>
 			<key>isa</key>
 			<string>PBXNativeTarget</string>
 			<key>name</key>
-			<string>CocoaPodTestTests</string>
+			<string>ProjectWithCocoapodTests</string>
 			<key>productName</key>
-			<string>CocoaPodTestTests</string>
+			<string>ProjectWithCocoapodTests</string>
 			<key>productReference</key>
-			<string>DE0932FE1818F98D00CF20E9</string>
+			<string>DE5D6C71181A83A000BA08BC</string>
 			<key>productType</key>
 			<string>com.apple.product-type.bundle.unit-test</string>
 		</dict>
-		<key>DE0932FE1818F98D00CF20E9</key>
+		<key>DE5D6C71181A83A000BA08BC</key>
 		<dict>
 			<key>explicitFileType</key>
 			<string>wrapper.cfbundle</string>
@@ -734,11 +680,11 @@ fi
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>path</key>
-			<string>CocoaPodTestTests.xctest</string>
+			<string>ProjectWithCocoapodTests.xctest</string>
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>DE0932FF1818F98D00CF20E9</key>
+		<key>DE5D6C72181A83A000BA08BC</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
@@ -751,69 +697,69 @@ fi
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>DE0933001818F98D00CF20E9</key>
+		<key>DE5D6C73181A83A000BA08BC</key>
 		<dict>
 			<key>fileRef</key>
-			<string>DE0932FF1818F98D00CF20E9</string>
+			<string>DE5D6C72181A83A000BA08BC</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>DE0933011818F98D00CF20E9</key>
+		<key>DE5D6C74181A83A000BA08BC</key>
 		<dict>
 			<key>fileRef</key>
-			<string>DE0932E01818F98C00CF20E9</string>
+			<string>DE5D6C53181A839F00BA08BC</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>DE0933021818F98D00CF20E9</key>
+		<key>DE5D6C75181A83A000BA08BC</key>
 		<dict>
 			<key>fileRef</key>
-			<string>DE0932E41818F98C00CF20E9</string>
+			<string>DE5D6C57181A839F00BA08BC</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>DE0933031818F98D00CF20E9</key>
+		<key>DE5D6C76181A83A000BA08BC</key>
 		<dict>
 			<key>containerPortal</key>
-			<string>DE0932D51818F98C00CF20E9</string>
+			<string>DE5D6C48181A839F00BA08BC</string>
 			<key>isa</key>
 			<string>PBXContainerItemProxy</string>
 			<key>proxyType</key>
 			<string>1</string>
 			<key>remoteGlobalIDString</key>
-			<string>DE0932DC1818F98C00CF20E9</string>
+			<string>DE5D6C4F181A839F00BA08BC</string>
 			<key>remoteInfo</key>
-			<string>CocoaPodTest</string>
+			<string>ProjectWithCocoapod</string>
 		</dict>
-		<key>DE0933041818F98D00CF20E9</key>
+		<key>DE5D6C77181A83A000BA08BC</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXTargetDependency</string>
 			<key>target</key>
-			<string>DE0932DC1818F98C00CF20E9</string>
+			<string>DE5D6C4F181A839F00BA08BC</string>
 			<key>targetProxy</key>
-			<string>DE0933031818F98D00CF20E9</string>
+			<string>DE5D6C76181A83A000BA08BC</string>
 		</dict>
-		<key>DE0933051818F98D00CF20E9</key>
+		<key>DE5D6C78181A83A000BA08BC</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>DE09330B1818F98D00CF20E9</string>
-				<string>DE0933061818F98D00CF20E9</string>
+				<string>DE5D6C7E181A83A000BA08BC</string>
+				<string>DE5D6C79181A83A000BA08BC</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>path</key>
-			<string>CocoaPodTestTests</string>
+			<string>ProjectWithCocoapodTests</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DE0933061818F98D00CF20E9</key>
+		<key>DE5D6C79181A83A000BA08BC</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>DE0933071818F98D00CF20E9</string>
-				<string>DE0933081818F98D00CF20E9</string>
+				<string>DE5D6C7A181A83A000BA08BC</string>
+				<string>DE5D6C7B181A83A000BA08BC</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -822,22 +768,22 @@ fi
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DE0933071818F98D00CF20E9</key>
+		<key>DE5D6C7A181A83A000BA08BC</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>text.plist.xml</string>
 			<key>path</key>
-			<string>CocoaPodTestTests-Info.plist</string>
+			<string>ProjectWithCocoapodTests-Info.plist</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DE0933081818F98D00CF20E9</key>
+		<key>DE5D6C7B181A83A000BA08BC</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>DE0933091818F98D00CF20E9</string>
+				<string>DE5D6C7C181A83A000BA08BC</string>
 			</array>
 			<key>isa</key>
 			<string>PBXVariantGroup</string>
@@ -846,7 +792,7 @@ fi
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DE0933091818F98D00CF20E9</key>
+		<key>DE5D6C7C181A83A000BA08BC</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
@@ -859,32 +805,32 @@ fi
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DE09330A1818F98D00CF20E9</key>
+		<key>DE5D6C7D181A83A000BA08BC</key>
 		<dict>
 			<key>fileRef</key>
-			<string>DE0933081818F98D00CF20E9</string>
+			<string>DE5D6C7B181A83A000BA08BC</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>DE09330B1818F98D00CF20E9</key>
+		<key>DE5D6C7E181A83A000BA08BC</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>CocoaPodTestTests.m</string>
+			<string>ProjectWithCocoapodTests.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DE09330C1818F98D00CF20E9</key>
+		<key>DE5D6C7F181A83A000BA08BC</key>
 		<dict>
 			<key>fileRef</key>
-			<string>DE09330B1818F98D00CF20E9</string>
+			<string>DE5D6C7E181A83A000BA08BC</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>DE09330D1818F98D00CF20E9</key>
+		<key>DE5D6C80181A83A000BA08BC</key>
 		<dict>
 			<key>buildSettings</key>
 			<dict>
@@ -957,7 +903,7 @@ fi
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>DE09330E1818F98D00CF20E9</key>
+		<key>DE5D6C81181A83A000BA08BC</key>
 		<dict>
 			<key>buildSettings</key>
 			<dict>
@@ -1021,24 +967,22 @@ fi
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>DE09330F1818F98D00CF20E9</key>
+		<key>DE5D6C82181A83A000BA08BC</key>
 		<dict>
 			<key>buildConfigurations</key>
 			<array>
-				<string>DE0933101818F98D00CF20E9</string>
-				<string>DE0933111818F98D00CF20E9</string>
+				<string>DE5D6C83181A83A000BA08BC</string>
+				<string>DE5D6C84181A83A000BA08BC</string>
 			</array>
 			<key>defaultConfigurationIsVisible</key>
 			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>DE0933101818F98D00CF20E9</key>
+		<key>DE5D6C83181A83A000BA08BC</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>555E2C7FA5A04A879E44F8BF</string>
+			<string>486C75E5840F40EC94279727</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
@@ -1048,9 +992,9 @@ fi
 				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
 				<string>YES</string>
 				<key>GCC_PREFIX_HEADER</key>
-				<string>CocoaPodTest/CocoaPodTest-Prefix.pch</string>
+				<string>ProjectWithCocoapod/ProjectWithCocoapod-Prefix.pch</string>
 				<key>INFOPLIST_FILE</key>
-				<string>CocoaPodTest/CocoaPodTest-Info.plist</string>
+				<string>ProjectWithCocoapod/ProjectWithCocoapod-Info.plist</string>
 				<key>PRODUCT_NAME</key>
 				<string>$(TARGET_NAME)</string>
 				<key>WRAPPER_EXTENSION</key>
@@ -1061,10 +1005,10 @@ fi
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>DE0933111818F98D00CF20E9</key>
+		<key>DE5D6C84181A83A000BA08BC</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>555E2C7FA5A04A879E44F8BF</string>
+			<string>486C75E5840F40EC94279727</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
@@ -1074,9 +1018,9 @@ fi
 				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
 				<string>YES</string>
 				<key>GCC_PREFIX_HEADER</key>
-				<string>CocoaPodTest/CocoaPodTest-Prefix.pch</string>
+				<string>ProjectWithCocoapod/ProjectWithCocoapod-Prefix.pch</string>
 				<key>INFOPLIST_FILE</key>
-				<string>CocoaPodTest/CocoaPodTest-Info.plist</string>
+				<string>ProjectWithCocoapod/ProjectWithCocoapod-Info.plist</string>
 				<key>PRODUCT_NAME</key>
 				<string>$(TARGET_NAME)</string>
 				<key>WRAPPER_EXTENSION</key>
@@ -1087,28 +1031,26 @@ fi
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>DE0933121818F98D00CF20E9</key>
+		<key>DE5D6C85181A83A000BA08BC</key>
 		<dict>
 			<key>buildConfigurations</key>
 			<array>
-				<string>DE0933131818F98D00CF20E9</string>
-				<string>DE0933141818F98D00CF20E9</string>
+				<string>DE5D6C86181A83A000BA08BC</string>
+				<string>DE5D6C87181A83A000BA08BC</string>
 			</array>
 			<key>defaultConfigurationIsVisible</key>
 			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>DE0933131818F98D00CF20E9</key>
+		<key>DE5D6C86181A83A000BA08BC</key>
 		<dict>
 			<key>buildSettings</key>
 			<dict>
 				<key>ARCHS</key>
 				<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
 				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/CocoaPodTest.app/CocoaPodTest</string>
+				<string>$(BUILT_PRODUCTS_DIR)/ProjectWithCocoapod.app/ProjectWithCocoapod</string>
 				<key>FRAMEWORK_SEARCH_PATHS</key>
 				<array>
 					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
@@ -1118,14 +1060,14 @@ fi
 				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
 				<string>YES</string>
 				<key>GCC_PREFIX_HEADER</key>
-				<string>CocoaPodTest/CocoaPodTest-Prefix.pch</string>
+				<string>ProjectWithCocoapod/ProjectWithCocoapod-Prefix.pch</string>
 				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
 				<array>
 					<string>DEBUG=1</string>
 					<string>$(inherited)</string>
 				</array>
 				<key>INFOPLIST_FILE</key>
-				<string>CocoaPodTestTests/CocoaPodTestTests-Info.plist</string>
+				<string>ProjectWithCocoapodTests/ProjectWithCocoapodTests-Info.plist</string>
 				<key>PRODUCT_NAME</key>
 				<string>$(TARGET_NAME)</string>
 				<key>TEST_HOST</key>
@@ -1138,14 +1080,14 @@ fi
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>DE0933141818F98D00CF20E9</key>
+		<key>DE5D6C87181A83A000BA08BC</key>
 		<dict>
 			<key>buildSettings</key>
 			<dict>
 				<key>ARCHS</key>
 				<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
 				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/CocoaPodTest.app/CocoaPodTest</string>
+				<string>$(BUILT_PRODUCTS_DIR)/ProjectWithCocoapod.app/ProjectWithCocoapod</string>
 				<key>FRAMEWORK_SEARCH_PATHS</key>
 				<array>
 					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
@@ -1155,9 +1097,9 @@ fi
 				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
 				<string>YES</string>
 				<key>GCC_PREFIX_HEADER</key>
-				<string>CocoaPodTest/CocoaPodTest-Prefix.pch</string>
+				<string>ProjectWithCocoapod/ProjectWithCocoapod-Prefix.pch</string>
 				<key>INFOPLIST_FILE</key>
-				<string>CocoaPodTestTests/CocoaPodTestTests-Info.plist</string>
+				<string>ProjectWithCocoapodTests/ProjectWithCocoapodTests-Info.plist</string>
 				<key>PRODUCT_NAME</key>
 				<string>$(TARGET_NAME)</string>
 				<key>TEST_HOST</key>
@@ -1170,76 +1112,78 @@ fi
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>DE0933151818FE3000CF20E9</key>
+		<key>DE5D6C88181A83FA00BA08BC</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>DE0933231818FE3000CF20E9</string>
+				<string>DE5D6C98181A83FA00BA08BC</string>
 			</array>
 			<key>isa</key>
 			<string>PBXSourcesBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>DE0933161818FE3000CF20E9</key>
+		<key>DE5D6C89181A83FA00BA08BC</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>DE09331B1818FE3000CF20E9</string>
-				<string>CD305DCEE6A2479FA5537FAA</string>
+				<string>DE5D6C8E181A83FA00BA08BC</string>
+				<string>DE5D6C90181A83FA00BA08BC</string>
+				<string>DE5D6C8F181A83FA00BA08BC</string>
+				<string>EE6AF61B4E744981B51C0B47</string>
 			</array>
 			<key>isa</key>
 			<string>PBXFrameworksBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>DE0933171818FE3000CF20E9</key>
+		<key>DE5D6C8A181A83FA00BA08BC</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>DE0933211818FE3000CF20E9</string>
+				<string>DE5D6C96181A83FA00BA08BC</string>
 			</array>
 			<key>isa</key>
 			<string>PBXResourcesBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>DE0933181818FE3000CF20E9</key>
+		<key>DE5D6C8B181A83FA00BA08BC</key>
 		<dict>
 			<key>buildConfigurationList</key>
-			<string>DE0933291818FE3000CF20E9</string>
+			<string>DE5D6C9C181A83FA00BA08BC</string>
 			<key>buildPhases</key>
 			<array>
-				<string>A3A2F71E75BF4690AA3D4D9E</string>
-				<string>DE0933151818FE3000CF20E9</string>
-				<string>DE0933161818FE3000CF20E9</string>
-				<string>DE0933171818FE3000CF20E9</string>
-				<string>DBD82647241D4FAE8B682200</string>
+				<string>EA1E41C7FFFA40298EB39DC4</string>
+				<string>DE5D6C88181A83FA00BA08BC</string>
+				<string>DE5D6C89181A83FA00BA08BC</string>
+				<string>DE5D6C8A181A83FA00BA08BC</string>
+				<string>0B134C2F8D2B46D7A52F17BA</string>
 			</array>
 			<key>buildRules</key>
 			<array/>
 			<key>dependencies</key>
 			<array>
-				<string>DE0933261818FE3000CF20E9</string>
+				<string>DE5D6C9B181A83FA00BA08BC</string>
 			</array>
 			<key>isa</key>
 			<string>PBXNativeTarget</string>
 			<key>name</key>
-			<string>CocoaPodTestLogicTests</string>
+			<string>ProjectWithCocoapodLogicTests</string>
 			<key>productName</key>
-			<string>CocoaPodTestLogicTests</string>
+			<string>ProjectWithCocoapodLogicTests</string>
 			<key>productReference</key>
-			<string>DE0933191818FE3000CF20E9</string>
+			<string>DE5D6C8C181A83FA00BA08BC</string>
 			<key>productType</key>
 			<string>com.apple.product-type.bundle</string>
 		</dict>
-		<key>DE0933191818FE3000CF20E9</key>
+		<key>DE5D6C8C181A83FA00BA08BC</key>
 		<dict>
 			<key>explicitFileType</key>
 			<string>wrapper.cfbundle</string>
@@ -1248,11 +1192,11 @@ fi
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>path</key>
-			<string>CocoaPodTestLogicTests.octest</string>
+			<string>ProjectWithCocoapodLogicTests.octest</string>
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>DE09331A1818FE3000CF20E9</key>
+		<key>DE5D6C8D181A83FA00BA08BC</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
@@ -1265,34 +1209,48 @@ fi
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>DE09331B1818FE3000CF20E9</key>
+		<key>DE5D6C8E181A83FA00BA08BC</key>
 		<dict>
 			<key>fileRef</key>
-			<string>DE09331A1818FE3000CF20E9</string>
+			<string>DE5D6C8D181A83FA00BA08BC</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>DE09331C1818FE3000CF20E9</key>
+		<key>DE5D6C8F181A83FA00BA08BC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>DE5D6C53181A839F00BA08BC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>DE5D6C90181A83FA00BA08BC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>DE5D6C57181A839F00BA08BC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>DE5D6C91181A83FA00BA08BC</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>DE0933221818FE3000CF20E9</string>
-				<string>DE09331D1818FE3000CF20E9</string>
+				<string>DE5D6C97181A83FA00BA08BC</string>
+				<string>DE5D6C92181A83FA00BA08BC</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>path</key>
-			<string>CocoaPodTestLogicTests</string>
+			<string>ProjectWithCocoapodLogicTests</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DE09331D1818FE3000CF20E9</key>
+		<key>DE5D6C92181A83FA00BA08BC</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>DE09331E1818FE3000CF20E9</string>
-				<string>DE09331F1818FE3000CF20E9</string>
-				<string>DE0933241818FE3000CF20E9</string>
+				<string>DE5D6C93181A83FA00BA08BC</string>
+				<string>DE5D6C94181A83FA00BA08BC</string>
+				<string>DE5D6C99181A83FA00BA08BC</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -1301,22 +1259,22 @@ fi
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DE09331E1818FE3000CF20E9</key>
+		<key>DE5D6C93181A83FA00BA08BC</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>text.plist.xml</string>
 			<key>path</key>
-			<string>CocoaPodTestLogicTests-Info.plist</string>
+			<string>ProjectWithCocoapodLogicTests-Info.plist</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DE09331F1818FE3000CF20E9</key>
+		<key>DE5D6C94181A83FA00BA08BC</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>DE0933201818FE3000CF20E9</string>
+				<string>DE5D6C95181A83FA00BA08BC</string>
 			</array>
 			<key>isa</key>
 			<string>PBXVariantGroup</string>
@@ -1325,7 +1283,7 @@ fi
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DE0933201818FE3000CF20E9</key>
+		<key>DE5D6C95181A83FA00BA08BC</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
@@ -1338,96 +1296,105 @@ fi
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DE0933211818FE3000CF20E9</key>
+		<key>DE5D6C96181A83FA00BA08BC</key>
 		<dict>
 			<key>fileRef</key>
-			<string>DE09331F1818FE3000CF20E9</string>
+			<string>DE5D6C94181A83FA00BA08BC</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>DE0933221818FE3000CF20E9</key>
+		<key>DE5D6C97181A83FA00BA08BC</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>CocoaPodTestLogicTests.m</string>
+			<string>ProjectWithCocoapodLogicTests.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DE0933231818FE3000CF20E9</key>
+		<key>DE5D6C98181A83FA00BA08BC</key>
 		<dict>
 			<key>fileRef</key>
-			<string>DE0933221818FE3000CF20E9</string>
+			<string>DE5D6C97181A83FA00BA08BC</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>DE0933241818FE3000CF20E9</key>
+		<key>DE5D6C99181A83FA00BA08BC</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>CocoaPodTestLogicTests-Prefix.pch</string>
+			<string>ProjectWithCocoapodLogicTests-Prefix.pch</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DE0933251818FE3000CF20E9</key>
+		<key>DE5D6C9A181A83FA00BA08BC</key>
 		<dict>
 			<key>containerPortal</key>
-			<string>DE0932D51818F98C00CF20E9</string>
+			<string>DE5D6C48181A839F00BA08BC</string>
 			<key>isa</key>
 			<string>PBXContainerItemProxy</string>
 			<key>proxyType</key>
 			<string>1</string>
 			<key>remoteGlobalIDString</key>
-			<string>DE0932DC1818F98C00CF20E9</string>
+			<string>DE5D6C4F181A839F00BA08BC</string>
 			<key>remoteInfo</key>
-			<string>CocoaPodTest</string>
+			<string>ProjectWithCocoapod</string>
 		</dict>
-		<key>DE0933261818FE3000CF20E9</key>
+		<key>DE5D6C9B181A83FA00BA08BC</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXTargetDependency</string>
 			<key>target</key>
-			<string>DE0932DC1818F98C00CF20E9</string>
+			<string>DE5D6C4F181A839F00BA08BC</string>
 			<key>targetProxy</key>
-			<string>DE0933251818FE3000CF20E9</string>
+			<string>DE5D6C9A181A83FA00BA08BC</string>
 		</dict>
-		<key>DE0933271818FE3000CF20E9</key>
+		<key>DE5D6C9C181A83FA00BA08BC</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>DE5D6C9D181A83FA00BA08BC</string>
+				<string>DE5D6C9E181A83FA00BA08BC</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>DE5D6C9D181A83FA00BA08BC</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>61C1FC4F74FE49889B5258DF</string>
+			<string>66F3C416C27B45C6AFE58E01</string>
 			<key>buildSettings</key>
 			<dict>
+				<key>ARCHS</key>
+				<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
 				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/CocoaPodTest.app/CocoaPodTest</string>
+				<string>$(BUILT_PRODUCTS_DIR)/ProjectWithCocoapod.app/ProjectWithCocoapod</string>
 				<key>FRAMEWORK_SEARCH_PATHS</key>
 				<array>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
+					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
 					<string>$(inherited)</string>
+					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
 				</array>
-				<key>GCC_ENABLE_OBJC_EXCEPTIONS</key>
-				<string>YES</string>
 				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
 				<string>YES</string>
 				<key>GCC_PREFIX_HEADER</key>
-				<string>CocoaPodTestLogicTests/CocoaPodTestLogicTests-Prefix.pch</string>
+				<string>ProjectWithCocoapodLogicTests/ProjectWithCocoapodLogicTests-Prefix.pch</string>
 				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
 				<array>
 					<string>DEBUG=1</string>
 					<string>$(inherited)</string>
 				</array>
 				<key>INFOPLIST_FILE</key>
-				<string>CocoaPodTestLogicTests/CocoaPodTestLogicTests-Info.plist</string>
-				<key>MACOSX_DEPLOYMENT_TARGET</key>
-				<string>10.9</string>
+				<string>ProjectWithCocoapodLogicTests/ProjectWithCocoapodLogicTests-Info.plist</string>
 				<key>PRODUCT_NAME</key>
 				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>macosx</string>
 				<key>TEST_HOST</key>
 				<string>$(BUNDLE_LOADER)</string>
 				<key>WRAPPER_EXTENSION</key>
@@ -1438,35 +1405,30 @@ fi
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>DE0933281818FE3000CF20E9</key>
+		<key>DE5D6C9E181A83FA00BA08BC</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>61C1FC4F74FE49889B5258DF</string>
+			<string>66F3C416C27B45C6AFE58E01</string>
 			<key>buildSettings</key>
 			<dict>
+				<key>ARCHS</key>
+				<string>$(ARCHS_STANDARD_INCLUDING_64_BIT)</string>
 				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/CocoaPodTest.app/CocoaPodTest</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
+				<string>$(BUILT_PRODUCTS_DIR)/ProjectWithCocoapod.app/ProjectWithCocoapod</string>
 				<key>FRAMEWORK_SEARCH_PATHS</key>
 				<array>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
+					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
 					<string>$(inherited)</string>
+					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
 				</array>
-				<key>GCC_ENABLE_OBJC_EXCEPTIONS</key>
-				<string>YES</string>
 				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
 				<string>YES</string>
 				<key>GCC_PREFIX_HEADER</key>
-				<string>CocoaPodTestLogicTests/CocoaPodTestLogicTests-Prefix.pch</string>
+				<string>ProjectWithCocoapodLogicTests/ProjectWithCocoapodLogicTests-Prefix.pch</string>
 				<key>INFOPLIST_FILE</key>
-				<string>CocoaPodTestLogicTests/CocoaPodTestLogicTests-Info.plist</string>
-				<key>MACOSX_DEPLOYMENT_TARGET</key>
-				<string>10.9</string>
+				<string>ProjectWithCocoapodLogicTests/ProjectWithCocoapodLogicTests-Info.plist</string>
 				<key>PRODUCT_NAME</key>
 				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>macosx</string>
 				<key>TEST_HOST</key>
 				<string>$(BUNDLE_LOADER)</string>
 				<key>WRAPPER_EXTENSION</key>
@@ -1477,33 +1439,75 @@ fi
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>DE0933291818FE3000CF20E9</key>
+		<key>E73252CE63E7403CAB374761</key>
 		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>DE0933271818FE3000CF20E9</string>
-				<string>DE0933281818FE3000CF20E9</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
 			<key>isa</key>
-			<string>XCConfigurationList</string>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
 		</dict>
-		<key>F7FAFEA21B3241CAA53942DE</key>
+		<key>EA1E41C7FFFA40298EB39DC4</key>
 		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-CocoaPodTestLogicTests.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>EE6AF61B4E744981B51C0B47</key>
+		<dict>
+			<key>fileRef</key>
+			<string>34C396EE7DD34D2AA12578EF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 	</dict>
 	<key>rootObject</key>
-	<string>DE0932D51818F98C00CF20E9</string>
+	<string>DE5D6C48181A839F00BA08BC</string>
 </dict>
 </plist>

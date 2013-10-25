@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DE0932DC1818F98C00CF20E9"
-               BuildableName = "CocoaPodTest.app"
-               BlueprintName = "CocoaPodTest"
-               ReferencedContainer = "container:CocoaPodTest.xcodeproj">
+               BlueprintIdentifier = "DE5D6C4F181A839F00BA08BC"
+               BuildableName = "ProjectWithCocoapod.app"
+               BlueprintName = "ProjectWithCocoapod"
+               ReferencedContainer = "container:ProjectWithCocoapod.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DE0932FD1818F98C00CF20E9"
-               BuildableName = "CocoaPodTestTests.xctest"
-               BlueprintName = "CocoaPodTestTests"
-               ReferencedContainer = "container:CocoaPodTest.xcodeproj">
+               BlueprintIdentifier = "DE5D6C70181A83A000BA08BC"
+               BuildableName = "ProjectWithCocoapodTests.xctest"
+               BlueprintName = "ProjectWithCocoapodTests"
+               ReferencedContainer = "container:ProjectWithCocoapod.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DE0933181818FE3000CF20E9"
-               BuildableName = "CocoaPodTestLogicTests.octest"
-               BlueprintName = "CocoaPodTestLogicTests"
-               ReferencedContainer = "container:CocoaPodTest.xcodeproj">
+               BlueprintIdentifier = "DE5D6C8B181A83FA00BA08BC"
+               BuildableName = "ProjectWithCocoapodLogicTests.octest"
+               BlueprintName = "ProjectWithCocoapodLogicTests"
+               ReferencedContainer = "container:ProjectWithCocoapod.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DE0932DC1818F98C00CF20E9"
-            BuildableName = "CocoaPodTest.app"
-            BlueprintName = "CocoaPodTest"
-            ReferencedContainer = "container:CocoaPodTest.xcodeproj">
+            BlueprintIdentifier = "DE5D6C4F181A839F00BA08BC"
+            BuildableName = "ProjectWithCocoapod.app"
+            BlueprintName = "ProjectWithCocoapod"
+            ReferencedContainer = "container:ProjectWithCocoapod.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -71,10 +71,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DE0932DC1818F98C00CF20E9"
-            BuildableName = "CocoaPodTest.app"
-            BlueprintName = "CocoaPodTest"
-            ReferencedContainer = "container:CocoaPodTest.xcodeproj">
+            BlueprintIdentifier = "DE5D6C4F181A839F00BA08BC"
+            BuildableName = "ProjectWithCocoapod.app"
+            BlueprintName = "ProjectWithCocoapod"
+            ReferencedContainer = "container:ProjectWithCocoapod.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -89,10 +89,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DE0932DC1818F98C00CF20E9"
-            BuildableName = "CocoaPodTest.app"
-            BlueprintName = "CocoaPodTest"
-            ReferencedContainer = "container:CocoaPodTest.xcodeproj">
+            BlueprintIdentifier = "DE5D6C4F181A839F00BA08BC"
+            BuildableName = "ProjectWithCocoapod.app"
+            BlueprintName = "ProjectWithCocoapod"
+            ReferencedContainer = "container:ProjectWithCocoapod.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

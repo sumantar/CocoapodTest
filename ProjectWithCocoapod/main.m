@@ -1,8 +1,8 @@
 //
 //  main.m
-//  CocoaPodTest
+//  ProjectWithCocoapod
 //
-//  Created by sumantar on 24/10/13.
+//  Created by sumantar on 25/10/13.
 //  Copyright (c) 2013 sumantar. All rights reserved.
 //
 

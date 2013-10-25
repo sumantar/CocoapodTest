@@ -1,18 +1,18 @@
 //
-//  CocoaPodTestLogicTests.m
-//  CocoaPodTestLogicTests
+//  ProjectWithCocoapodTests.m
+//  ProjectWithCocoapodTests
 //
-//  Created by sumantar on 24/10/13.
+//  Created by sumantar on 25/10/13.
 //  Copyright (c) 2013 sumantar. All rights reserved.
 //
 
-#import <SenTestingKit/SenTestingKit.h>
+#import <XCTest/XCTest.h>
 
-@interface CocoaPodTestLogicTests : SenTestCase
+@interface ProjectWithCocoapodTests : XCTestCase
 
 @end
 
-@implementation CocoaPodTestLogicTests
+@implementation ProjectWithCocoapodTests
 
 - (void)setUp
 {
@@ -28,7 +28,7 @@
 
 - (void)testExample
 {
-    STFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
 }
 
 @end
