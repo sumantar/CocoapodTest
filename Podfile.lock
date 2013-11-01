@@ -19,14 +19,20 @@ PODS:
   - AFNetworking/Serialization (2.0.1)
   - AFNetworking/UIKit (2.0.1):
     - AFNetworking/NSURLConnection
-  - OCMock (2.2.1)
+  - Kiwi (2.2.3):
+    - Kiwi/SenTestingKit
+  - Kiwi/ARC (2.2.3)
+  - Kiwi/NonARC (2.2.3)
+  - Kiwi/SenTestingKit (2.2.3):
+    - Kiwi/ARC
+    - Kiwi/NonARC
 
 DEPENDENCIES:
   - AFNetworking (~> 2.0)
-  - OCMock (~> 2.2)
+  - Kiwi (~> 2.2.3)
 
 SPEC CHECKSUMS:
   AFNetworking: a6f11ac4ac087303e6ff87adc1ba57b0dac20ef8
-  OCMock: 80e4cfbc71a0e1bd28caf10a9fda27da7c4c8402
+  Kiwi: 04c51e880831d291748ec702d42c4101f7eb95c9
 
-COCOAPODS: 0.26.1
+COCOAPODS: 0.27.1

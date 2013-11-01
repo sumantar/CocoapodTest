@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		9D1A5110D1D94F7991AD8BB9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CA73B8C7C4F4E3288A9AB56 /* libPods.a */; };
+		DE293FFD1823C1B100C12379 /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = DE293FFC1823C1B100C12379 /* Stack.m */; };
+		DE293FFE1823C1B100C12379 /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = DE293FFC1823C1B100C12379 /* Stack.m */; };
 		DE5D6C54181A839F00BA08BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE5D6C53181A839F00BA08BC /* Foundation.framework */; };
 		DE5D6C56181A839F00BA08BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE5D6C55181A839F00BA08BC /* CoreGraphics.framework */; };
 		DE5D6C58181A839F00BA08BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE5D6C57181A839F00BA08BC /* UIKit.framework */; };
@@ -52,6 +54,8 @@
 		34C396EE7DD34D2AA12578EF /* libPods-ProjectWithCocoapodLogicTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ProjectWithCocoapodLogicTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		486C75E5840F40EC94279727 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		66F3C416C27B45C6AFE58E01 /* Pods-ProjectWithCocoapodLogicTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectWithCocoapodLogicTests.xcconfig"; path = "Pods/Pods-ProjectWithCocoapodLogicTests.xcconfig"; sourceTree = "<group>"; };
+		DE293FFB1823C1B100C12379 /* Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
+		DE293FFC1823C1B100C12379 /* Stack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stack.m; sourceTree = "<group>"; };
 		DE5D6C50181A839F00BA08BC /* ProjectWithCocoapod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectWithCocoapod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE5D6C53181A839F00BA08BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DE5D6C55181A839F00BA08BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -155,6 +159,8 @@
 		DE5D6C59181A839F00BA08BC /* ProjectWithCocoapod */ = {
 			isa = PBXGroup;
 			children = (
+				DE293FFB1823C1B100C12379 /* Stack.h */,
+				DE293FFC1823C1B100C12379 /* Stack.m */,
 				DE5D6C62181A83A000BA08BC /* AppDelegate.h */,
 				DE5D6C63181A83A000BA08BC /* AppDelegate.m */,
 				DE5D6C65181A83A000BA08BC /* Main.storyboard */,
@@ -408,6 +414,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE293FFD1823C1B100C12379 /* Stack.m in Sources */,
 				DE5D6C6A181A83A000BA08BC /* ViewController.m in Sources */,
 				DE5D6C64181A83A000BA08BC /* AppDelegate.m in Sources */,
 				DE5D6C60181A83A000BA08BC /* main.m in Sources */,
@@ -426,6 +433,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE293FFE1823C1B100C12379 /* Stack.m in Sources */,
 				DE5D6C98181A83FA00BA08BC /* ProjectWithCocoapodLogicTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
