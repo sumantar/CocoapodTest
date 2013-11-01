@@ -10,6 +10,7 @@
 
 @interface Stack : NSObject {
 	
+    @private
 	NSMutableArray *stackArray;	
 }
 

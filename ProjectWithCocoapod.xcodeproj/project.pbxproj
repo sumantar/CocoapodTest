@@ -10,6 +10,7 @@
 		9D1A5110D1D94F7991AD8BB9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CA73B8C7C4F4E3288A9AB56 /* libPods.a */; };
 		DE293FFD1823C1B100C12379 /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = DE293FFC1823C1B100C12379 /* Stack.m */; };
 		DE293FFE1823C1B100C12379 /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = DE293FFC1823C1B100C12379 /* Stack.m */; };
+		DE2940001823C6D700C12379 /* StackSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = DE293FFF1823C6D700C12379 /* StackSpec.m */; };
 		DE5D6C54181A839F00BA08BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE5D6C53181A839F00BA08BC /* Foundation.framework */; };
 		DE5D6C56181A839F00BA08BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE5D6C55181A839F00BA08BC /* CoreGraphics.framework */; };
 		DE5D6C58181A839F00BA08BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE5D6C57181A839F00BA08BC /* UIKit.framework */; };
@@ -56,6 +57,7 @@
 		66F3C416C27B45C6AFE58E01 /* Pods-ProjectWithCocoapodLogicTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectWithCocoapodLogicTests.xcconfig"; path = "Pods/Pods-ProjectWithCocoapodLogicTests.xcconfig"; sourceTree = "<group>"; };
 		DE293FFB1823C1B100C12379 /* Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
 		DE293FFC1823C1B100C12379 /* Stack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stack.m; sourceTree = "<group>"; };
+		DE293FFF1823C6D700C12379 /* StackSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StackSpec.m; path = Specs/StackSpec.m; sourceTree = "<group>"; };
 		DE5D6C50181A839F00BA08BC /* ProjectWithCocoapod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectWithCocoapod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE5D6C53181A839F00BA08BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DE5D6C55181A839F00BA08BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -205,6 +207,7 @@
 			isa = PBXGroup;
 			children = (
 				DE5D6C97181A83FA00BA08BC /* ProjectWithCocoapodLogicTests.m */,
+				DE293FFF1823C6D700C12379 /* StackSpec.m */,
 				DE5D6C92181A83FA00BA08BC /* Supporting Files */,
 			);
 			path = ProjectWithCocoapodLogicTests;
@@ -434,6 +437,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE293FFE1823C1B100C12379 /* Stack.m in Sources */,
+				DE2940001823C6D700C12379 /* StackSpec.m in Sources */,
 				DE5D6C98181A83FA00BA08BC /* ProjectWithCocoapodLogicTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
