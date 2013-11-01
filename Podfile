@@ -3,6 +3,6 @@ pod "AFNetworking", "~> 2.0"
 
 
 target :ProjectWithCocoapodLogicTests, :exclusive => true do
-    pod "OCMock", "~> 2.2"
+    pod "Kiwi", "~> 2.2.3"
 end
 
