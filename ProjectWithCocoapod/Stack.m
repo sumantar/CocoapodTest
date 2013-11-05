@@ -49,4 +49,18 @@ static Stack *sharedObject = nil;
 	return nil;
 }
 
+-(id) top
+{
+    if([stackArray count] >0)
+	{
+		id object = [stackArray lastObject];
+		return object;
+	}
+	return nil;
+}
+-(int)count
+{
+    return [stackArray count];
+}
+
 @end

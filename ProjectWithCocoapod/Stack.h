@@ -17,5 +17,7 @@
 +(Stack *)sharedInstance;
 -(void) push:(id)object;
 -(id) pop;
+-(id) top;
+-(int)count;
 
 @end
