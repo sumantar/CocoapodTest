@@ -30,6 +30,7 @@
 		DE5D6C90181A83FA00BA08BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE5D6C57181A839F00BA08BC /* UIKit.framework */; };
 		DE5D6C96181A83FA00BA08BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE5D6C94181A83FA00BA08BC /* InfoPlist.strings */; };
 		DE5D6C98181A83FA00BA08BC /* ProjectWithCocoapodLogicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5D6C97181A83FA00BA08BC /* ProjectWithCocoapodLogicTests.m */; };
+		DE97271F1828D446000626B3 /* TestObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = DE97271E1828D446000626B3 /* TestObserver.m */; };
 		EE6AF61B4E744981B51C0B47 /* libPods-ProjectWithCocoapodLogicTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34C396EE7DD34D2AA12578EF /* libPods-ProjectWithCocoapodLogicTests.a */; };
 /* End PBXBuildFile section */
 
@@ -83,6 +84,7 @@
 		DE5D6C95181A83FA00BA08BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DE5D6C97181A83FA00BA08BC /* ProjectWithCocoapodLogicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProjectWithCocoapodLogicTests.m; sourceTree = "<group>"; };
 		DE5D6C99181A83FA00BA08BC /* ProjectWithCocoapodLogicTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ProjectWithCocoapodLogicTests-Prefix.pch"; sourceTree = "<group>"; };
+		DE97271E1828D446000626B3 /* TestObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestObserver.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +208,7 @@
 		DE5D6C91181A83FA00BA08BC /* ProjectWithCocoapodLogicTests */ = {
 			isa = PBXGroup;
 			children = (
+				DE97271E1828D446000626B3 /* TestObserver.m */,
 				DE5D6C97181A83FA00BA08BC /* ProjectWithCocoapodLogicTests.m */,
 				DE293FFF1823C6D700C12379 /* StackSpec.m */,
 				DE5D6C92181A83FA00BA08BC /* Supporting Files */,
@@ -437,6 +440,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE293FFE1823C1B100C12379 /* Stack.m in Sources */,
+				DE97271F1828D446000626B3 /* TestObserver.m in Sources */,
 				DE2940001823C6D700C12379 /* StackSpec.m in Sources */,
 				DE5D6C98181A83FA00BA08BC /* ProjectWithCocoapodLogicTests.m in Sources */,
 			);
